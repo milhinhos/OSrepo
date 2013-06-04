@@ -42,7 +42,14 @@ for repo in repos:
 print repo.name
 
 eventos=repo.get_events()
-
+for evento in eventos:
+  print evento.created_at
+  print evento.org
+  print evento.actor
+  print evento.id
+  print evento.payload
+  print evento.public
+  
 
 
 
