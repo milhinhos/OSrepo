@@ -10,6 +10,7 @@ import argparse
 #
 # That will populate a PyGithub subdirectory with a clone of PyGithub
 # Then, to add it to your Python path, you can do:
+# carefull!! Big commit!
 
 
 from github import Github
